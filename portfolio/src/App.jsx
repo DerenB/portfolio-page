@@ -1,9 +1,10 @@
 import './App.css'
+import HeroBanner from '../Components/HeroBanner'
 
 function App() {
   return (
     <div>
-      <p className='underline text-4xl'>Hello TailWind</p>
+      <HeroBanner />
     </div>
   )
 }
