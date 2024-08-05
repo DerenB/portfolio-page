@@ -1,9 +1,11 @@
-import './App.css'
-import HeroBanner from '../Components/HeroBanner'
+import '../Styles/App.css'
+
+// Componets
+import HeroBanner from '../Components/HeroBanner.jsx'
 
 function App() {
   return (
-    <div>
+    <div id='main'>
       <HeroBanner />
     </div>
   )

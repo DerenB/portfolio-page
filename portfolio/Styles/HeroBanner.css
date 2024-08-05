@@ -1,0 +1,13 @@
+
+#image {
+    background-image: url('../src/assets/Hero_Image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+}
+
+#test {
+    color: white;
+}
+
