@@ -8,7 +8,7 @@ function HeroBanner() {
     return (
         <div className="heroMain">
             <div className='text'>
-                
+                asd
             </div>
         </div>
     );
