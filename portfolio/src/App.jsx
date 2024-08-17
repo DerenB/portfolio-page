@@ -6,12 +6,10 @@ import Contact from '../pages/Contact.jsx';
 import Home from '../pages/Home.jsx';
 
 // Components
-import HeroBanner from '../Components/HeroBanner.jsx';
 import NavBar from '../Components/Navbar.jsx';
 
 // Styles
 import '../Styles/App.css';
-
 
 
 function App() {
