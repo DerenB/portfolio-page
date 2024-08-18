@@ -1,0 +1,12 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+}
+
+.content {
+    height: 100vh; /* Ensure content takes full viewport height */
+    overflow-y: auto; /* Enable scrolling within the content */
+}

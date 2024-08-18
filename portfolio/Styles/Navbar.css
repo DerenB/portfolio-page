@@ -1,6 +1,16 @@
+.navMainBackground {
+    width: 100%;
+    background: linear-gradient(to right, #072229, #081013);
+    position: sticky;
+    top: 0;
+}
+
 .navMain {
     width: 50%;
     margin-left: 25%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,8 +21,7 @@
     font-style: normal;
     font-size: 1.5em;
     color: #D41C21;
-    position: sticky;
-    top: 0;
+    border-bottom: 1px solid #636363;
 }
 
 .navIcon {
