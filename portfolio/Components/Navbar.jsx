@@ -4,12 +4,16 @@ import { Link } from 'react-router-dom';
 import '../Styles/Navbar.css'
 
 import MenuIcon from './MenuIcon';
+import DropDownMenu from './DropDownMenu';
 
 function NavBar() {
 
-  const [dropMenuOpen, setDropMenuOpen] = useState(true);
+  const [dropMenuOpen, setDropMenuOpen] = useState(false);
   const handleMenuClick = () => {
     setDropMenuOpen(dropMenuOpen => !dropMenuOpen)
+  }
+  const setDropMenuToFalse = () => {
+    setDropMenuOpen(false)
   }
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -18,6 +22,9 @@ function NavBar() {
   useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
+      if (windowWidth > 1000) {
+        setDropMenuOpen(false)
+      }
     };
 
     window.addEventListener('resize', handleResize);
@@ -25,27 +32,38 @@ function NavBar() {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  });
 
   return (
     <div className='navMainBackground'>
       <nav className='navMain'>
-        <div className='navIcon'>
-          Portfolio
-        </div>
+
+        {/* PORTFOLIO ICON */}
+        {windowWidth > breakpoint ? (
+          <div className='navIcon'>
+            Portfolio
+          </div>
+        ) : (
+          <Link to="/" className='navIcon' onClick={setDropMenuToFalse}>
+            Portfolio
+          </Link>
+        )}
+
+        {/* NAV MENU VS BURGER ICON */}
         {windowWidth > breakpoint ? (
           <ul className='navList'>
             <li className='navItem'><Link to="/">Home</Link></li>
             <li className='navItem'><Link to="/about">About</Link></li>
             <li className='navItem'><Link to="/contact">Contact</Link></li>
-        </ul>
+          </ul>
         ) : (
           <MenuIcon handleClick={handleMenuClick} />
         )}
       </nav>
 
-      {dropMenuOpen ? (
-        <div className='menuDropDown'>Menu Open</div>
+      {/* MOBILE DROP DOWN MENU */}
+      {dropMenuOpen && windowWidth <= breakpoint ? (
+        <DropDownMenu handleClick={setDropMenuToFalse} />
       ) : (
         <div></div>
       )}
