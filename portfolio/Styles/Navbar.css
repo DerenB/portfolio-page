@@ -40,6 +40,34 @@
     margin-right: 25px;
 }
 
+.menuMain {
+    margin-right: 40px;
+    width: 30px;
+    height: 30px;
+}
+.menuMain:hover {
+    cursor: pointer;
+}
+.menuColor {
+    width: 30px;
+    height: 5px;
+    background-color: #D41C21;
+    border-radius: 2px;
+}
+.menuDark {
+    width: 30px;
+    height: 5px;
+}
+.menuDropDown {
+    position: absolute;
+    z-index: 9999;
+    margin-top: -10px;
+    margin-left: 10%;
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
 
 @media only screen and (max-width: 2200px) {
     .navMain {
@@ -67,6 +95,7 @@
 
 @media only screen and (max-width: 700px) {
     .navMain {
-        background-color: aqua;
+        width: 100%;
+        margin-left: 0%;
     }
 }
