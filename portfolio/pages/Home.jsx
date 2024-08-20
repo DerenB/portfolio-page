@@ -20,15 +20,31 @@ function Home() {
 
     return (
         <div className="homeMain">
-            <div>
-                {windowWidth > breakpoint ? (
-                    <div>Desktop View</div>
-                ) : (
-                    <div>Mobile View</div>
-                )}
-            </div>
-
             
+            <div className='homeIntroSection'>
+                <div className='homeIntroWords'>
+                    <div>Hello There. I&apos;m Deren.</div>
+                    <div>
+                        Lorem ipsum odor amet, consectetuer 
+                        adipiscing elit. Nisi cubilia iaculis 
+                        luctus fusce praesent; dictum feugiat. 
+                        Montes vulputate ad diam libero taciti sed 
+                        molestie eu. Aenean maecenas eget lacinia 
+                        imperdiet ut ornare. Dapibus eu tempus 
+                        aenean vel pretium. Velit mollis mi potenti 
+                        conubia eleifend phasellus nibh accumsan.
+                    </div>
+                    <div className='homeIntroIcons'>
+                        <div className='homeIntroIcon'></div>
+                        <div className='homeIntroIcon'></div>
+                        <div className='homeIntroIcon'></div>
+                        <div className='homeIntroIcon'></div>
+                    </div>
+                </div>
+                <div className='homeIntroPic'>
+                    <img src='../assets/ProfilePicture.png' />
+                </div>
+            </div>
         </div>
     )
 }
