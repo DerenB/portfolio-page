@@ -23,8 +23,8 @@ function Home() {
             
             <div className='homeIntroSection'>
                 <div className='homeIntroWords'>
-                    <div>Hello There. I&apos;m Deren.</div>
-                    <div>
+                    <div className='homeIntroHeadline'>Hello There. I&apos;m <span>Deren</span>.</div>
+                    <div className='homeIntroParagraph'>
                         Lorem ipsum odor amet, consectetuer 
                         adipiscing elit. Nisi cubilia iaculis 
                         luctus fusce praesent; dictum feugiat. 

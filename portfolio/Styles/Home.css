@@ -1,7 +1,9 @@
 .homeMain {
     width: 50%;
     margin-left: 25%;
+    font-family: "Inter", sans-serif;
 }
+
 
 
 .homeIntroSection {
@@ -12,11 +14,17 @@
 }
 
 
+
 .homeIntroWords {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
     height: 100%;
     width: 60%;
-    background-color: red;
+    padding: 25px 10px 25px 10px;
 }
+
 
 
 .homeIntroPic {
@@ -26,7 +34,6 @@
     align-items: center;
     height: 100%;
     width: 40%;
-    background-color: green;
 }
 .homeIntroPic img {
     border: 1px solid black;
@@ -36,6 +43,26 @@
     max-width: 90%;
     max-height: 90%;
 }
+
+
+
+.homeIntroHeadline {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.homeIntroHeadline span {
+    color: #D41C21;
+}
+
+
+
+.homeIntroParagraph {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+
 .homeIntroIcons {
     display: flex;
     flex-direction: row;
@@ -43,6 +70,7 @@
 .homeIntroIcon {
     border: 1px solid black;
     border-radius: 10px;
+    margin-right: 20px;
     width: 40px;
     height: 40px;
     background-color: aqua;
@@ -81,5 +109,16 @@
     .homeMain {
         width: 100%;
         margin-left: 0%;
+    }
+    .homeIntroSection {
+        flex-direction: column;
+        align-items: center;
+    }
+    .homeIntroWords {
+        width: 90%;
+    }
+    .homeIntroIcons {
+        width: 100%;
+        justify-content: center;
     }
 }
