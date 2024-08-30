@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import '../Styles/Home.css'
 
+import HomeSocialPageIcon from '../Components/HomeSocialPageIcon';
+
 function Home() {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth)
@@ -35,10 +37,16 @@ function Home() {
                         conubia eleifend phasellus nibh accumsan.
                     </div>
                     <div className='homeIntroIcons'>
-                        <div className='homeIntroIcon'></div>
-                        <div className='homeIntroIcon'></div>
-                        <div className='homeIntroIcon'></div>
-                        <div className='homeIntroIcon'></div>
+                        <HomeSocialPageIcon 
+                            href="https://www.linkedin.com/in/deren-bozer/"
+                            id="icon-li"
+                            icon="../assets/LinkedInIcon.jpeg"
+                        />
+                        <HomeSocialPageIcon 
+                            href="https://github.com/DerenB"
+                            id="icon-gh"
+                            icon="../assets/github-mark-white.jpg"
+                        />
                     </div>
                 </div>
                 <div className='homeIntroPic'>
