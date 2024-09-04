@@ -25,7 +25,49 @@ function Home() {
             <HomeIntroSection />
 
             <div className='homeProjectSection'>
-                <div>Recent <span>Projects</span></div>
+                <div className='homeProjectHeader'>Recent <span className='highlight'>Projects</span></div>
+
+                <div className='homeProjectBlock'>
+                    <div className='projectHeader'>Project Title</div>
+
+                    <div className='projectTechnology'>
+                        <div>FastAPI</div>
+                        <div>ReactJS</div>
+                        <div>MongoDB</div>
+                    </div>
+
+                    <div className='projectDetail'>
+                        Lorem ipsum odor amet, consectetuer adipiscing elit. Nisi cubilia iaculis luctus fusce praesent; dictum feugiat. Montes vulputate ad diam libero taciti sed molestie eu.
+                    </div>
+                </div>
+
+                <div className='homeProjectBlock'>
+                    <div className='projectHeader'>Project Title</div>
+
+                    <div className='projectTechnology'>
+                        <div>FastAPI</div>
+                        <div>ReactJS</div>
+                        <div>MongoDB</div>
+                    </div>
+
+                    <div className='projectDetail'>
+                        Lorem ipsum odor amet, consectetuer adipiscing elit. Nisi cubilia iaculis luctus fusce praesent; dictum feugiat. Montes vulputate ad diam libero taciti sed molestie eu.
+                    </div>
+                </div>
+
+                <div className='homeProjectBlock'>
+                    <div className='projectHeader'>Project Title</div>
+
+                    <div className='projectTechnology'>
+                        <div>FastAPI</div>
+                        <div>ReactJS</div>
+                        <div>MongoDB</div>
+                    </div>
+
+                    <div className='projectDetail'>
+                        Lorem ipsum odor amet, consectetuer adipiscing elit. Nisi cubilia iaculis luctus fusce praesent; dictum feugiat. Montes vulputate ad diam libero taciti sed molestie eu.
+                    </div>
+                </div>
             </div>
         </div>
     )

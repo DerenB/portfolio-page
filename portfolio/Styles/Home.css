@@ -90,9 +90,44 @@
 
 .homeProjectSection {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.homeProjectHeader {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+.homeProjectBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    background-color: #20383e;
+    border-radius: 10px;
+}
+.projectHeader {
+    width: 100%;
+}
+.projectTechnology {
+    display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #D41C21;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.projectDetail {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.highlight {
+    color: #D41C21;
 }
 
 
