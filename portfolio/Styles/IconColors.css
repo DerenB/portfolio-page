@@ -1,0 +1,48 @@
+.anthropic {
+    background-color: #f0efea;
+}
+.bootstrap {
+    background-color: #7952b3;
+}
+.css {
+    background-color: #214ce5;
+}
+.fastapi {
+    background-color: #009485;
+}
+.figma {
+    background-color: #b008ff;
+}
+.mongodb {
+    background-color: #00684a;
+}
+.mysql {
+    background-color: #f29111;
+}
+.php {
+    background-color: #7a86b8;
+}
+.react {
+    background-color: #58c4dc;
+}
+.swift {
+    background-color: #f05138;
+}
+.tailwindcss {
+    background-color: #38bdf8;
+}
+.uikit {
+    background-color: #002097;
+}
+.xcode {
+    background-color: #176de3;
+}
+
+
+
+.darkText {
+    color: #000000;
+}
+.lightText {
+    color: #d0d0d0;
+}
