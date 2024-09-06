@@ -53,7 +53,8 @@ function NavBar() {
         {windowWidth > breakpoint ? (
           <ul className='navList'>
             <li className='navItem'><Link to="/">Home</Link></li>
-            <li className='navItem'><Link to="/about">About</Link></li>
+            <li className='navItem'><a href='https://github.com/DerenB' target='_blank' rel="noopener noreferrer">GitHub</a></li>
+            <li className='navItem'><a href='https://www.linkedin.com/in/deren-bozer/' target='_blank' rel="noopener noreferrer">LinkedIn</a></li>
             <li className='navItem'><Link to="/contact">Contact</Link></li>
           </ul>
         ) : (
@@ -73,3 +74,18 @@ function NavBar() {
 }
 
 export default NavBar;
+
+
+/* Old method for Internal links:
+
+{windowWidth > breakpoint ? (
+  <ul className='navList'>
+    <li className='navItem'><Link to="/">Home</Link></li>
+    <li className='navItem'><Link to="/about">About</Link></li>
+    <li className='navItem'><Link to="/contact">Contact</Link></li>
+  </ul>
+) : (
+  <MenuIcon handleClick={handleMenuClick} />
+)}
+
+*/
