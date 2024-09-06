@@ -23,8 +23,9 @@ const HomeIntroSection = (  ) => {
             </div>
 
             <div className='homeIntroPic'>
-                <img src="../public/ProfilePicture.png" alt="Profile Image" />
+                <img src="/public/ProfilePicture.png" alt="Profile Image" />
             </div>
+            
 
         </div>
     )
