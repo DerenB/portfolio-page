@@ -1,7 +1,5 @@
 /* eslint-disable react/prop-types */ 
 
-import HomeSocialPageIcon from '../Components/HomeSocialPageIcon';
-
 const HomeIntroSection = (  ) => {
 
     return (
@@ -20,19 +18,6 @@ const HomeIntroSection = (  ) => {
                     imperdiet ut ornare. Dapibus eu tempus 
                     aenean vel pretium. Velit mollis mi potenti 
                     conubia eleifend phasellus nibh accumsan.
-                </div>
-
-                <div className='homeIntroIcons'>
-                    <HomeSocialPageIcon 
-                        href="https://www.linkedin.com/in/deren-bozer/"
-                        id="icon-li"
-                        icon="../assets/LinkedInIcon.jpeg"
-                    />
-                    <HomeSocialPageIcon 
-                        href="https://github.com/DerenB"
-                        id="icon-gh"
-                        icon="../assets/github-mark-white.jpg"
-                    />
                 </div>
 
             </div>
