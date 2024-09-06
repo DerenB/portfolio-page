@@ -10,3 +10,8 @@ body {
     height: 100vh; /* Ensure content takes full viewport height */
     overflow-y: auto; /* Enable scrolling within the content */
 }
+
+.footer {
+    height: 40px;
+    width: 100%;
+}

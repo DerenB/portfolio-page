@@ -96,7 +96,7 @@
     width: 100%;
 }
 .homeProjectHeader {
-    font-size: 2em;
+    font-size: 2.2em;
     color: #ffffff;
 }
 .homeProjectBlock {
@@ -112,25 +112,29 @@
 }
 .projectHeader {
     width: 100%;
-    font-size: 1.4em;
+    font-size: 2em;
     padding-left: 40px;
 }
 .projectTechnology {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     padding-left: 40px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
+    font-size: 1.2em;
 }
 .projectDetail {
     width: 100%;
     padding-left: 40px;
     padding-right: 40px;
     color: #d0d0d0;
+    font-size: 1.2em;
 }
 .projectBubble {
     margin-right: 10px;
-    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    padding: 5px 15px 5px 15px;
     border: 1px solid black;
     border-radius: 8px;
 }
@@ -147,13 +151,13 @@
 }
 
 
+
 .highlight {
     color: #D41C21;
 }
 .spacer {
     height: 8px;
 }
-
 
 
 
@@ -171,6 +175,24 @@
         width: 70%;
         margin-left: 15%;
     }
+    .homeIntroHeadline {
+        font-size: 2.0em;
+    }
+    .homeIntroParagraph {
+        font-size: 1.1em;
+    }
+    .homeProjectHeader {
+        font-size: 1.7em;
+    }
+    .projectHeader {
+        font-size: 1.5em;
+    }
+    .projectTechnology {
+        font-size: 1em;
+    }
+    .projectDetail {
+        font-size: 1.1em;
+    }
 }
 
 
@@ -179,6 +201,11 @@
     .homeMain {
         width: 80%;
         margin-left: 10%;
+    }
+    .projectDetail {
+        font-size: 1em;
+        text-align: justify;
+        text-align-last: left;
     }
 }
 
@@ -201,13 +228,58 @@
         width: 100%;
         justify-content: center;
     }
+    .homeProjectHeader {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .homeProjectHeader span {
+        margin-left: 10px;
+    }
+    .homeProjectBlock {
+        width: 96%;
+        margin-left: 2%;
+    }
+    .projectHeader {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .line, .projectDetail {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .projectTechnology {
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: center;
+    }
+    .line div {
+        width: 100%;
+    }
 }
 
 
-
+@media only screen and (max-width: 466px) {
+    .homeIntroSection {
+        margin-top: 27%;
+    }
+}
 @media only screen and (max-width: 429px) {
     .homeIntroSection {
         margin-top: 25%;
+    }
+    .homeIntroHeadline {
+        font-size: 1.8em;
+    }
+    .homeIntroParagraph {
+        font-size: 1em;
+    }
+    .homeProjectHeader {
+        font-size: 1.5em;
     }
 }
 @media only screen and (max-width: 380px) {
@@ -215,9 +287,12 @@
         margin-top: 30%;
     }
 }
-@media only screen and (max-width: 342px) {
+@media only screen and (max-width: 344px) {
     .homeIntroSection {
         margin-top: 35%;
+    }
+    .homeIntroHeadline {
+        font-size: 1.4em;
     }
 }
 @media only screen and (max-width: 320px) {

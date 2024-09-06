@@ -8,6 +8,7 @@ import Home from '../pages/Home.jsx';
 
 // Components
 import NavBar from '../Components/Navbar.jsx';
+import Footer from '../Components/Footer.jsx';
 
 // Styles
 import '../Styles/App.css';
@@ -47,6 +48,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   )
