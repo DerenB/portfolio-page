@@ -34,8 +34,12 @@ const homeProjectSection = () => {
                 { "class": 'react', "text": "ReactJS", "color": "darkText"},
                 { "class": 'css', "text": "CSS", "color": "lightText"}
             ],
-            "paragraph1": "Lorem ipsum odor amet, consectetuer adipiscing elit. Nisi cubilia iaculis luctus fusce praesent; dictum feugiat. Montes vulputate ad diam libero taciti sed molestie eu.",
-            "bullets": []
+            "paragraph1": "Built a web form for company internal use that prompts an AI based on user input. The AI generates a C# file with the necessary classes and methods. Python was used to prompt the AI and call the Anthropic API.",
+            "bullets": [
+                "Built the backend server for calling the AI prompt class",
+                "Converted the prompt class to read from a json file instead of from the console",
+                "Designed a simple frontend with React to dynamically display user inputs"
+            ]
         },
         {
             "title": "Portfolio Website",
@@ -45,7 +49,7 @@ const homeProjectSection = () => {
                 { "class": 'css', "text": "CSS", "color": "lightText"},
                 { "class": 'figma', "text": "Figma", "color": "lightText"}
             ],
-            "paragraph1": "Created this portfolio website with React and CSS",
+            "paragraph1": "Created this portfolio website with React and CSS with reusable components for future expansion.",
             "bullets": [
                 "Tested layouts and colors in Figma",
                 "Took design inspiration from portfolio templates",
