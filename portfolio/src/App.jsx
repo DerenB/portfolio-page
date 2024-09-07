@@ -16,6 +16,7 @@ import '../Styles/App.css';
 function App() {
   const contentRef = useRef(null);
 
+  // useEffect for fixing white background scrolling issue
   useEffect(() => {
     const content = contentRef.current;
 
@@ -39,6 +40,8 @@ function App() {
   }, [])
 
 
+  // Main App with Navigation
+  // NavBar and Footer on every page
   return (
     <div className='content' ref={contentRef}>
       <BrowserRouter>

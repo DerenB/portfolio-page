@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
+
+// Styles
 import '../Styles/Home.css'
 import '../Styles/IconColors.css'
 
+// Components
 import HomeIntroSection from '../Components/HomeIntroSection';
 import HomeProjectSection from '../Components/HomeProjectSection';
 
@@ -24,8 +27,11 @@ function Home() {
 
     return (
         <div className="homeMain">
+
+            {/* Intro section with Header, Paragraph, Profile Picture */}
             <HomeIntroSection />
 
+            {/* Project Blocks Loop */}
             <HomeProjectSection />
         </div>
     )

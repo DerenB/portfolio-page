@@ -1,9 +1,11 @@
 /* eslint-disable react/prop-types */ 
 
+// Components
 import HomeProjectBlock from "./HomeProjectBlock"
 
 const homeProjectSection = () => {
 
+    // Array of Data Dictionaries of projects
     const projectData = [
         {
             "title": "DivDat iPhone App",
@@ -62,8 +64,11 @@ const homeProjectSection = () => {
 
     return (
         <div className='homeProjectSection'>
+
+            {/* Section Header */}
             <div className='homeProjectHeader'>Recent <span className='highlight'>Projects</span></div>
 
+            {/* Loop to add the Project Blocks */}
             {projectData.map((block, index) => (
                 <HomeProjectBlock
                     key = {index}
