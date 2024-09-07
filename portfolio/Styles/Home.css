@@ -140,7 +140,7 @@
 }
 .projectBullets {
     color: #d0d0d0;
-    margin-left: 20px;
+    width: 95%;
 }
 .projectBullets span {
     color: #D41C21;
