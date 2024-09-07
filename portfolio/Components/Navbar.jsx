@@ -41,11 +41,11 @@ function NavBar() {
         {/* PORTFOLIO ICON */}
         {windowWidth > breakpoint ? (
           <div className='navIcon'>
-            Portfolio
+            Portfolio DAB
           </div>
         ) : (
           <Link to="/" className='navIcon' onClick={setDropMenuToFalse}>
-            Portfolio
+            Portfolio DAB
           </Link>
         )}
 
