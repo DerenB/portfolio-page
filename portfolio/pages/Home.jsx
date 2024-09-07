@@ -33,6 +33,7 @@ function Home() {
 
             {/* Project Blocks Loop */}
             <HomeProjectSection />
+            
         </div>
     )
 }
