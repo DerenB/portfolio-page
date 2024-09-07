@@ -45,8 +45,13 @@ const homeProjectSection = () => {
                 { "class": 'css', "text": "CSS", "color": "lightText"},
                 { "class": 'figma', "text": "Figma", "color": "lightText"}
             ],
-            "paragraph1": "Created this portfolio website with React after brainstorming in Figma. ",
-            "bullets": []
+            "paragraph1": "Created this portfolio website with React and CSS",
+            "bullets": [
+                "Tested layouts and colors in Figma",
+                "Took design inspiration from portfolio templates",
+                "Supports mobile formats",
+                "Deployed to Vercel"
+            ]
         },
         {
             "title": "Student All-In-One Web App",
@@ -62,7 +67,8 @@ const homeProjectSection = () => {
                 "Created the Calendar frontend and backend",
                 "Added a system for changing the website color theme",
                 "Setup the website technology stack",
-                "Helped with the Home page and Navbar"
+                "Helped with the Home page and Navbar",
+                "Hosted the project on Digital Ocean"
             ]
         },
         {
@@ -73,8 +79,14 @@ const homeProjectSection = () => {
                 { "class": 'bootstrap', "text": "Bootstrap", "color": "lightText"},
                 { "class": 'mysql', "text": "MySQL", "color": "darkText"}
             ],
-            "paragraph1": "Lorem ipsum odor amet, consectetuer adipiscing elit. Nisi cubilia iaculis luctus fusce praesent; dictum feugiat. Montes vulputate ad diam libero taciti sed molestie eu.",
-            "bullets": []
+            "paragraph1": "My partner and I developed a bookstore website for browsing and purchasing books. Users can go through the whole process of creating and logging into an account, browsing the books, then adding their books to the cart and checking out.",
+            "bullets": [
+                "Built the web form for users to query the database",
+                "Built the cart and checkout systems",
+                "Designed the database schema",
+                "Collected data from Amazon to populate MySQL database of books",
+                "Hosted the project on Digital Ocean"
+            ]
         }
     ]
 
