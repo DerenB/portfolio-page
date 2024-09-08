@@ -13,14 +13,17 @@ const HomeIntroSection = () => {
 
                 {/* Intro Paragraph */}
                 <div className='homeIntroParagraph'>
-                    Lorem ipsum odor amet, consectetuer 
-                    adipiscing elit. Nisi cubilia iaculis 
-                    luctus fusce praesent; dictum feugiat. 
-                    Montes vulputate ad diam libero taciti sed 
-                    molestie eu. Aenean maecenas eget lacinia 
-                    imperdiet ut ornare. Dapibus eu tempus 
-                    aenean vel pretium. Velit mollis mi potenti 
-                    conubia eleifend phasellus nibh accumsan.
+                    I’m a Computer Science and Accounting graduate with a growing 
+                    passion for programming and web design. With a solid foundation 
+                    in web design, I’ve had the opportunity to build visually 
+                    appealing and user-friendly websites.
+                </div>
+                <div className='homeIntroParagraph'>
+                    Recently, I’ve begun 
+                    exploring mobile app development, eager to expand my skills and 
+                    tackle new challenges. Browse through my projects to see how I’m 
+                    applying my knowledge and creativity in both web and mobile platforms 
+                    as I continue to develop and refine my abilities.
                 </div>
 
             </div>

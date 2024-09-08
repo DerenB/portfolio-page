@@ -62,7 +62,7 @@
     color: #ffffff;
     text-align: justify;
     text-align-last: left;
-    font-size: 1.4em;
+    font-size: 1.1em;
 }
 
 
@@ -186,7 +186,7 @@
         font-size: 2.0em;
     }
     .homeIntroParagraph {
-        font-size: 1.1em;
+        font-size: 1.0em;
     }
     .homeProjectHeader {
         font-size: 1.7em;
@@ -209,6 +209,9 @@
         width: 80%;
         margin-left: 10%;
     }
+    .homeIntroParagraph {
+        font-size: 0.9em;
+    }
     .projectDetail {
         font-size: 1em;
         text-align: justify;
@@ -230,6 +233,7 @@
     }
     .homeIntroWords {
         width: 90%;
+        padding-top: 0;
     }
     .homeIntroIcons {
         width: 100%;
@@ -270,48 +274,118 @@
 }
 
 
+
+@media only screen and (max-width: 571px) {
+    .homeIntroSection {
+        margin-top: 24%;
+    }
+}
 @media only screen and (max-width: 466px) {
     .homeIntroSection {
-        margin-top: 27%;
+        margin-top: 23%;
+    }
+    .homeIntroHeadline {
+        font-size: 1.7em;
+    }
+}
+
+
+
+@media only screen and (max-width: 451px) {
+    .homeIntroSection {
+        margin-top: 30%;
     }
 }
 @media only screen and (max-width: 429px) {
     .homeIntroSection {
-        margin-top: 25%;
+        margin-top: 28%;
     }
     .homeIntroHeadline {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
     .homeIntroParagraph {
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .homeProjectHeader {
         font-size: 1.5em;
     }
 }
+@media only screen and (max-width: 397px) {
+    .homeIntroSection {
+        margin-top: 33%;
+    }
+}
+
+
+
 @media only screen and (max-width: 380px) {
     .homeIntroSection {
-        margin-top: 30%;
+        margin-top: 42%;
+    }
+    .homeIntroPic {
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 358px) {
+    .homeIntroSection {
+        margin-top: 40%;
+    }
+    .homeIntroHeadline {
+        font-size: 1.5em;
+    }
+    .homeIntroParagraph {
+        font-size: 0.85em;
     }
 }
 @media only screen and (max-width: 344px) {
     .homeIntroSection {
-        margin-top: 35%;
+        margin-top: 40%;
     }
     .homeIntroHeadline {
         font-size: 1.4em;
     }
+    .homeIntroWords {
+        padding-top: 0px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 329px) {
+    .homeIntroSection {
+        margin-top: 38%;
+    }
 }
 @media only screen and (max-width: 320px) {
     .homeIntroSection {
-        margin-top: 23%;
+        margin-top: 41%;
     }
     .homeIntroParagraph {
-        font-size: 0.9em;
+        font-size: 0.85em;
     }
 }
+
+
+
 @media only screen and (max-width: 312px) {
     .homeIntroSection {
-        margin-top: 35%;
+        margin-top: 40%;
+    }
+}
+@media only screen and (max-width: 289px) {
+    .homeIntroSection {
+        margin-top: 60%;
+    }
+    .homeIntroPic {
+        margin-bottom: 45px;
+    }
+}
+@media only screen and (max-width: 254px) {
+    .homeIntroSection {
+        margin-top: 70%;
+    }
+    .homeIntroPic {
+        margin-bottom: 60px;
     }
 }
