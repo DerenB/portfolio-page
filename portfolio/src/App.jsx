@@ -12,6 +12,7 @@ import Footer from '../Components/Footer.jsx';
 
 // Styles
 import '../Styles/App.css';
+import '../Styles/Themes.css';
 
 function App() {
   const contentRef = useRef(null);

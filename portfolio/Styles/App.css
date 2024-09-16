@@ -9,6 +9,7 @@ body {
 .content {
     height: 100vh; /* Ensure content takes full viewport height */
     overflow-y: auto; /* Enable scrolling within the content */
+    background: linear-gradient(to right, #072229, #081013);
 }
 
 .footer {

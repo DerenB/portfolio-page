@@ -8,12 +8,24 @@ import DropDownMenu from './DropDownMenu';
 
 function NavBar() {
 
+  /// MOBILE MODE DROPDOWN MENU
   const [dropMenuOpen, setDropMenuOpen] = useState(false);
   const handleMenuClick = () => {
     setDropMenuOpen(dropMenuOpen => !dropMenuOpen)
   }
   const setDropMenuToFalse = () => {
     setDropMenuOpen(false)
+  }
+
+
+
+  /// COLOR THEME DROPDOWN MENU
+  const [themeMenuOpen, setThemeMenuOpen] = useState(false);
+  const handleThemeClick = () => {
+    setThemeMenuOpen(themeMenuOpen => !themeMenuOpen)
+  }
+  const setThemeMenuToFalse = () => {
+    setThemeMenuOpen(false)
   }
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -59,6 +71,20 @@ function NavBar() {
             </li>
             */}
 
+            <li className='navItem navTheme'>
+              <div className='themeDropDown' onClick={handleThemeClick}>Theme</div>
+              {themeMenuOpen ? (
+                <div className='themeMenu'>
+                  <div className='themeSpacer'></div>
+                  <div className='themeMenuItem' onClick={setThemeMenuToFalse}>Light</div>
+                  <div className='themeMenuItem' onClick={setThemeMenuToFalse}>Dark</div>
+                  <div className='themeMenuItem' onClick={setThemeMenuToFalse}>Green</div>
+                  <div className='themeMenuItem' onClick={setThemeMenuToFalse}>Blue</div>
+                </div>
+              ) : (
+                <div></div>
+              )}
+            </li>
             <li className='navItem'>
               <a href='https://github.com/DerenB' target='_blank' rel="noopener noreferrer">GitHub</a>
             </li>
@@ -78,12 +104,18 @@ function NavBar() {
         )}
       </nav>
 
+
       {/* MOBILE DROP DOWN MENU */}
       {dropMenuOpen && windowWidth <= breakpoint ? (
         <DropDownMenu handleClick={setDropMenuToFalse} />
       ) : (
         <div></div>
       )}
+
+
+      {/* COLOR THEME DROP DOWN MENU */}
+      
+
     </div>
     
   );
