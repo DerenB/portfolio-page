@@ -2,7 +2,7 @@
 
 import { Link } from 'react-router-dom';
 
-function DropDownMenu( { handleClick }) {
+function DropDownMenu( { handleClick, theme }) {
     return (
         <div className='menuDropDownContainer'>
           <div className='menuDropDown'>
@@ -13,10 +13,10 @@ function DropDownMenu( { handleClick }) {
             </Link>
             */}
 
-            <a href='https://github.com/DerenB' target='_blank' rel="noopener noreferrer" className='menuDropDownItem' onClick={handleClick}>
+            <a href='https://github.com/DerenB' target='_blank' rel="noopener noreferrer" className={`menuDropDownItem ${theme}`} onClick={handleClick}>
               GitHub
             </a>
-            <a href='https://www.linkedin.com/in/deren-bozer/' target='_blank' rel="noopener noreferrer" className='menuDropDownItem' onClick={handleClick}>
+            <a href='https://www.linkedin.com/in/deren-bozer/' target='_blank' rel="noopener noreferrer" className={`menuDropDownItem ${theme}`} onClick={handleClick}>
               LinkedIn
             </a>
 

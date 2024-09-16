@@ -1,0 +1,90 @@
+.navMainBackground.light {
+    background: linear-gradient(to right, #ffffff, yellow);
+}
+.navMainBackground.dark {
+    background: linear-gradient(to right, #072229, #081013);
+}
+.navMainBackground.green {
+    background: linear-gradient(to right, green, yellowgreen);
+}
+.navMainBackground.blue {
+    background: linear-gradient(to right, blue, purple);
+}
+
+
+.navMain.light {
+    color: black;
+    border-bottom: 1px solid black;
+}
+.navMain.dark {
+    color: #D41C21;
+    border-bottom: 1px solid #636363;
+}
+.navMain.green {
+    color: blue;
+    border-bottom: 1px solid yellow;
+}
+.navMain.blue {
+    color: white;
+    border-bottom: 1px solid red;
+}
+
+
+.menuColor.light {
+    background-color: black;
+}
+.menuColor.dark {
+    background-color: #D41C21;
+}
+.menuColor.green {
+    background-color: blue;
+}
+.menuColor.blue {
+    background-color: white;
+}
+
+
+.menuDropDownItem.light {
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.menuDropDownItem.dark {
+    background-color: #636363;
+    color: #ffffff;
+    border-bottom: 1px solid black;
+}
+.menuDropDownItem.green {
+    background-color: yellow;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.menuDropDownItem.blue {
+    background-color: red;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+
+.themeMenuItem.light {
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.themeMenuItem.dark {
+    background-color: #636363;
+    color: #ffffff;
+    border-bottom: 1px solid black;
+}
+.themeMenuItem.green {
+    background-color: yellow;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.themeMenuItem.blue {
+    background-color: red;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+

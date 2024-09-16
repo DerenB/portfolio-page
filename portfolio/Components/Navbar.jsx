@@ -2,9 +2,11 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import '../Styles/Navbar.css'
+import '../Styles/NavbarThemes.css'
 
 import MenuIcon from './MenuIcon';
 import DropDownMenu from './DropDownMenu';
+import { themeList, useTheme } from './Theme';
 
 function NavBar() {
 
@@ -28,6 +30,14 @@ function NavBar() {
     setThemeMenuOpen(false)
   }
 
+
+
+  /// COLOR THEMES
+  const { theme, setThemeByName } = useTheme();
+
+
+
+  /// WINDOW WIDTH
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const breakpoint = 1000;
 
@@ -47,8 +57,8 @@ function NavBar() {
   });
 
   return (
-    <div className='navMainBackground'>
-      <nav className='navMain'>
+    <div className={`navMainBackground ${theme}`}>
+      <nav className={`navMain ${theme}`}>
 
         {/* PORTFOLIO ICON */}
         {windowWidth > breakpoint ? (
@@ -76,10 +86,10 @@ function NavBar() {
               {themeMenuOpen ? (
                 <div className='themeMenu'>
                   <div className='themeSpacer'></div>
-                  <div className='themeMenuItem' onClick={setThemeMenuToFalse}>Light</div>
-                  <div className='themeMenuItem' onClick={setThemeMenuToFalse}>Dark</div>
-                  <div className='themeMenuItem' onClick={setThemeMenuToFalse}>Green</div>
-                  <div className='themeMenuItem' onClick={setThemeMenuToFalse}>Blue</div>
+                  <div className={`themeMenuItem ${theme}`} onClick={() => { setThemeByName('light'); setThemeMenuToFalse(); } }>Light</div>
+                  <div className={`themeMenuItem ${theme}`} onClick={() => { setThemeByName('dark'); setThemeMenuToFalse(); } }>Dark</div>
+                  <div className={`themeMenuItem ${theme}`} onClick={() => { setThemeByName('green'); setThemeMenuToFalse(); }}>Green</div>
+                  <div className={`themeMenuItem ${theme}`} onClick={() => { setThemeByName('blue'); setThemeMenuToFalse(); }}>Blue</div>
                 </div>
               ) : (
                 <div></div>
@@ -100,20 +110,17 @@ function NavBar() {
 
           </ul>
         ) : (
-          <MenuIcon handleClick={handleMenuClick} />
+          <MenuIcon handleClick={handleMenuClick} theme={theme} />
         )}
       </nav>
 
 
       {/* MOBILE DROP DOWN MENU */}
       {dropMenuOpen && windowWidth <= breakpoint ? (
-        <DropDownMenu handleClick={setDropMenuToFalse} />
+        <DropDownMenu handleClick={setDropMenuToFalse} theme={theme} />
       ) : (
         <div></div>
       )}
-
-
-      {/* COLOR THEME DROP DOWN MENU */}
       
 
     </div>
