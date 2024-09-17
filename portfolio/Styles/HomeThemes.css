@@ -8,7 +8,7 @@
     background: linear-gradient(to right, #D8F3C9, #D8F3C9);
 }
 .content.synth {
-    background: linear-gradient(to right, blue, purple);
+    background: linear-gradient(to right, #002bb2, #8e2eb3);
 }
 .content.matrix {
     background: linear-gradient(to right, #001400, #002900);
@@ -44,7 +44,7 @@
     color: #68148f;
 }
 .homeIntroHeadline.synth span {
-
+    color: #fff342;
 }
 .homeIntroHeadline.matrix span {
     color: #ebffeb;
@@ -62,7 +62,7 @@
     color: #000000;
 }
 .homeIntroParagraph.synth {
-
+    color: #ffffff;
 }
 .homeIntroParagraph.matrix {
     color: #00ff00;
@@ -79,7 +79,9 @@
 .homeProjectHeader.forest {
     color: #000000;
 }
-.homeProjectHeader.synth {}
+.homeProjectHeader.synth {
+    color: #ffffff;
+}
 .homeProjectHeader.matrix {
     color: #00ff00;
 }
@@ -98,7 +100,10 @@
     color: #000000;
     background-color: #8db99a;
 }
-.homeProjectBlock.synth {}
+.homeProjectBlock.synth {
+    color: #ffffff;
+    background-color: #441243;
+}
 .homeProjectBlock.matrix {
     color: #00ff00;
     background-color: #000000;
@@ -115,7 +120,9 @@
 .projectBullets.forest {
     color: #000000;
 }
-.projectBullets.synth {}
+.projectBullets.synth {
+    color: #ffffff;
+}
 .projectBullets.matrix {
     color: #00ff00;
 }
@@ -131,7 +138,9 @@
 .projectBullets.forest span {
     color: #68148f;
 }
-.projectBullets.synth span {}
+.projectBullets.synth span {
+    color: #ff99d8;
+}
 .projectBullets.matrix span {
     color: #ebffeb;
 }
@@ -147,7 +156,9 @@
 .line.forest div {
     border-bottom: 2px solid #bd8c61;
 }
-.line.synth div {}
+.line.synth div {
+    border-bottom: 2px solid #ff99d8;
+}
 .line.matrix div {
     border-bottom: 2px solid #ebffeb;
 }
@@ -163,7 +174,9 @@
 .highlight.forest {
     color: #68148f;
 }
-.highlight.synth {}
+.highlight.synth {
+    color: #fff342;
+}
 .highlight.matrix {
     color: #ebffeb;
 }

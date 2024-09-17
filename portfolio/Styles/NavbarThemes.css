@@ -8,7 +8,7 @@
     background: linear-gradient(to right, #D8F3C9, #D8F3C9);
 }
 .navMainBackground.synth {
-    background: linear-gradient(to right, blue, purple);
+    background: linear-gradient(to right, #002bb2, #8e2eb3);
 }
 .navMainBackground.matrix {
     background: linear-gradient(to right, #001400, #002900);
@@ -30,7 +30,7 @@
 }
 .navMain.synth {
     color: white;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #ff99d8;
 }
 .navMain.matrix {
     color: #00ff00;
@@ -49,7 +49,7 @@
     background-color: #000000;
 }
 .menuColor.synth {
-    background-color: white;
+    background-color: #ffffff;
 }
 .menuColor.matrix {
     background-color: #00ff00;
@@ -73,9 +73,9 @@
     border-bottom: 1px solid #000000;
 }
 .menuDropDownItem.synth {
-    background-color: red;
+    background-color: #ff99d8;
     color: black;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #441243;
 }
 .menuDropDownItem.matrix {
     background-color: #ebffeb;
@@ -101,12 +101,35 @@
     border-bottom: 1px solid #000000;
 }
 .themeMenuItem.synth {
-    background-color: red;
+    background-color: #ff99d8;
     color: black;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #441243;
 }
 .themeMenuItem.matrix {
     background-color: #ebffeb;
     color: black;
     border-bottom: 1px solid black;
+}
+
+
+
+.themeMenuItem.light:hover {
+    background-color: #c83432;
+    color: #000000;
+}
+.themeMenuItem.dark:hover {
+    background-color: #d41c21;
+    color: #000000;
+}
+.themeMenuItem.forest:hover {
+    background-color: #68148f;
+    color: #ffffff;
+}
+.themeMenuItem.synth:hover {
+    background-color: #fff342;
+    color: #000000;
+}
+.themeMenuItem.matrix:hover {
+    background-color: #002900;
+    color: #00ff00;
 }
