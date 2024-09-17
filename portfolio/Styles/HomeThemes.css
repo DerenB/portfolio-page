@@ -1,0 +1,169 @@
+.content.light {
+    background: linear-gradient(to right, #FFFFFF, #FFFFFF);
+}
+.content.dark {
+    background: linear-gradient(to right, #072229, #081013);
+}
+.content.forest {
+    background: linear-gradient(to right, #D8F3C9, #D8F3C9);
+}
+.content.synth {
+    background: linear-gradient(to right, blue, purple);
+}
+.content.matrix {
+    background: linear-gradient(to right, #001400, #002900);
+}
+
+
+
+.homeIntroHeadline.light {
+    color: #000000;
+}
+.homeIntroHeadline.dark {
+    color: #ffffff;
+}
+.homeIntroHeadline.forest {
+    color: #000000;
+}
+.homeIntroHeadline.synth {
+    color: #ffffff;
+}
+.homeIntroHeadline.matrix {
+    color: #00ff00;
+}
+
+
+
+.homeIntroHeadline.light span {
+    color: #c83432;
+}
+.homeIntroHeadline.dark span {
+    color: #D41C21;
+}
+.homeIntroHeadline.forest span {
+    color: #68148f;
+}
+.homeIntroHeadline.synth span {
+
+}
+.homeIntroHeadline.matrix span {
+    color: #ebffeb;
+}
+
+
+
+.homeIntroParagraph.light {
+    color: #000000;
+}
+.homeIntroParagraph.dark {
+    color: #ffffff;
+}
+.homeIntroParagraph.forest {
+    color: #000000;
+}
+.homeIntroParagraph.synth {
+
+}
+.homeIntroParagraph.matrix {
+    color: #00ff00;
+}
+
+
+
+.homeProjectHeader.light {
+    color: #000000;
+}
+.homeProjectHeader.dark {
+    color: #ffffff;
+}
+.homeProjectHeader.forest {
+    color: #000000;
+}
+.homeProjectHeader.synth {}
+.homeProjectHeader.matrix {
+    color: #00ff00;
+}
+
+
+
+.homeProjectBlock.light {
+    color: #000000;
+    background-color: #88b2cc;
+}
+.homeProjectBlock.dark {
+    color: #ffffff;
+    background-color: #20383e;
+}
+.homeProjectBlock.forest {
+    color: #000000;
+    background-color: #8db99a;
+}
+.homeProjectBlock.synth {}
+.homeProjectBlock.matrix {
+    color: #00ff00;
+    background-color: #000000;
+}
+
+
+
+.projectBullets.light {
+    color: #000000;
+}
+.projectBullets.dark {
+    color: #d0d0d0;
+}
+.projectBullets.forest {
+    color: #000000;
+}
+.projectBullets.synth {}
+.projectBullets.matrix {
+    color: #00ff00;
+}
+
+
+
+.projectBullets.light span {
+    color: #c83432;
+}
+.projectBullets.dark span {
+    color: #D41C21;
+}
+.projectBullets.forest span {
+    color: #68148f;
+}
+.projectBullets.synth span {}
+.projectBullets.matrix span {
+    color: #ebffeb;
+}
+
+
+
+.line.light div {
+    border-bottom: 2px solid #425862;
+}
+.line.dark div {
+    border-bottom: 2px solid #636363;
+}
+.line.forest div {
+    border-bottom: 2px solid #bd8c61;
+}
+.line.synth div {}
+.line.matrix div {
+    border-bottom: 2px solid #ebffeb;
+}
+
+
+
+.highlight.light {
+    color: #c83432;
+}
+.highlight.dark {
+    color: #D41C21;
+}
+.highlight.forest {
+    color: #68148f;
+}
+.highlight.synth {}
+.highlight.matrix {
+    color: #ebffeb;
+}

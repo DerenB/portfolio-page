@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -6,9 +8,9 @@ import '../Styles/NavbarThemes.css'
 
 import MenuIcon from './MenuIcon';
 import DropDownMenu from './DropDownMenu';
-import { themeList, useTheme } from './Theme';
+import { useTheme } from './Theme';
 
-function NavBar() {
+function NavBar( { setNewColorTheme } ) {
 
   /// MOBILE MODE DROPDOWN MENU
   const [dropMenuOpen, setDropMenuOpen] = useState(false);
@@ -86,10 +88,11 @@ function NavBar() {
               {themeMenuOpen ? (
                 <div className='themeMenu'>
                   <div className='themeSpacer'></div>
-                  <div className={`themeMenuItem ${theme}`} onClick={() => { setThemeByName('light'); setThemeMenuToFalse(); } }>Light</div>
-                  <div className={`themeMenuItem ${theme}`} onClick={() => { setThemeByName('dark'); setThemeMenuToFalse(); } }>Dark</div>
-                  <div className={`themeMenuItem ${theme}`} onClick={() => { setThemeByName('green'); setThemeMenuToFalse(); }}>Green</div>
-                  <div className={`themeMenuItem ${theme}`} onClick={() => { setThemeByName('blue'); setThemeMenuToFalse(); }}>Blue</div>
+                  <div className={`themeMenuItem ${theme}`} onClick={() => { setThemeByName('light'); setNewColorTheme('light'); setThemeMenuToFalse(); } }>Light</div>
+                  <div className={`themeMenuItem ${theme}`} onClick={() => { setThemeByName('dark'); setNewColorTheme('dark'); setThemeMenuToFalse(); } }>Dark</div>
+                  <div className={`themeMenuItem ${theme}`} onClick={() => { setThemeByName('forest'); setNewColorTheme('forest'); setThemeMenuToFalse(); }}>Forest</div>
+                  <div className={`themeMenuItem ${theme}`} onClick={() => { setThemeByName('synth'); setNewColorTheme('synth'); setThemeMenuToFalse(); }}>Synth</div>
+                  <div className={`themeMenuItem ${theme}`} onClick={() => { setThemeByName('matrix'); setNewColorTheme('matrix'); setThemeMenuToFalse(); }}>Matrix</div>
                 </div>
               ) : (
                 <div></div>

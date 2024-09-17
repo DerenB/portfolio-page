@@ -48,18 +48,13 @@
 
 .homeIntroHeadline {
     margin-bottom: 20px;
-    color: #ffffff;
     font-size: 2.5em;
-}
-.homeIntroHeadline span {
-    color: #D41C21;
 }
 
 
 
 .homeIntroParagraph {
     margin-bottom: 20px;
-    color: #ffffff;
     text-align: justify;
     text-align-last: left;
     font-size: 1.1em;
@@ -97,7 +92,6 @@
 }
 .homeProjectHeader {
     font-size: 2.2em;
-    color: #ffffff;
 }
 .homeProjectBlock {
     display: flex;
@@ -106,8 +100,6 @@
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 20px;
-    color: #ffffff;
-    background-color: #20383e;
     border-radius: 10px;
 }
 .projectHeader {
@@ -139,11 +131,9 @@
     border-radius: 8px;
 }
 .projectBullets {
-    color: #d0d0d0;
     width: 95%;
 }
 .projectBullets span {
-    color: #D41C21;
     margin-right: 3px;
 }
 .line {
@@ -153,16 +143,13 @@
 .line div {
     width: 35%;
     height: 1px;
-    border-bottom: 2px solid #636363;
     margin-top: 8px;
     margin-bottom: 12px;
 }
 
 
 
-.highlight {
-    color: #D41C21;
-}
+
 .spacer {
     height: 8px;
 }

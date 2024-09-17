@@ -1,90 +1,112 @@
 .navMainBackground.light {
-    background: linear-gradient(to right, #ffffff, yellow);
+    background: linear-gradient(to right, #FFFFFF, #FFFFFF);
 }
 .navMainBackground.dark {
     background: linear-gradient(to right, #072229, #081013);
 }
-.navMainBackground.green {
-    background: linear-gradient(to right, green, yellowgreen);
+.navMainBackground.forest {
+    background: linear-gradient(to right, #D8F3C9, #D8F3C9);
 }
-.navMainBackground.blue {
+.navMainBackground.synth {
     background: linear-gradient(to right, blue, purple);
 }
+.navMainBackground.matrix {
+    background: linear-gradient(to right, #001400, #002900);
+}
+
 
 
 .navMain.light {
-    color: black;
-    border-bottom: 1px solid black;
+    color: #000000;
+    border-bottom: 1px solid #425862;
 }
 .navMain.dark {
     color: #D41C21;
     border-bottom: 1px solid #636363;
 }
-.navMain.green {
-    color: blue;
-    border-bottom: 1px solid yellow;
+.navMain.forest {
+    color: #000000;
+    border-bottom: 1px solid #bd8c61;
 }
-.navMain.blue {
+.navMain.synth {
     color: white;
     border-bottom: 1px solid red;
 }
+.navMain.matrix {
+    color: #00ff00;
+    border-bottom: 1px solid #ebffeb;
+}
+
 
 
 .menuColor.light {
-    background-color: black;
+    background-color: #000000;
 }
 .menuColor.dark {
     background-color: #D41C21;
 }
-.menuColor.green {
-    background-color: blue;
+.menuColor.forest {
+    background-color: #000000;
 }
-.menuColor.blue {
+.menuColor.synth {
     background-color: white;
 }
+.menuColor.matrix {
+    background-color: #00ff00;
+}
+
 
 
 .menuDropDownItem.light {
-    background-color: white;
-    color: black;
-    border-bottom: 1px solid black;
+    background-color: #425962;
+    color: #ffffff;
+    border-bottom: 1px solid #88b2cc;
 }
 .menuDropDownItem.dark {
     background-color: #636363;
     color: #ffffff;
     border-bottom: 1px solid black;
 }
-.menuDropDownItem.green {
-    background-color: yellow;
-    color: black;
-    border-bottom: 1px solid black;
+.menuDropDownItem.forest {
+    background-color: #bd8c61;
+    color: #000000;
+    border-bottom: 1px solid #000000;
 }
-.menuDropDownItem.blue {
+.menuDropDownItem.synth {
     background-color: red;
     color: black;
     border-bottom: 1px solid black;
 }
+.menuDropDownItem.matrix {
+    background-color: #ebffeb;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
 
 
 .themeMenuItem.light {
-    background-color: white;
-    color: black;
-    border-bottom: 1px solid black;
+    background-color: #425962;
+    color: #ffffff;
+    border-bottom: 1px solid #88b2cc;
 }
 .themeMenuItem.dark {
     background-color: #636363;
     color: #ffffff;
     border-bottom: 1px solid black;
 }
-.themeMenuItem.green {
-    background-color: yellow;
-    color: black;
-    border-bottom: 1px solid black;
+.themeMenuItem.forest {
+    background-color: #bd8c61;
+    color: #000000;
+    border-bottom: 1px solid #000000;
 }
-.themeMenuItem.blue {
+.themeMenuItem.synth {
     background-color: red;
     color: black;
     border-bottom: 1px solid black;
 }
-
-
+.themeMenuItem.matrix {
+    background-color: #ebffeb;
+    color: black;
+    border-bottom: 1px solid black;
+}

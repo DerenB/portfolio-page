@@ -1,15 +1,19 @@
 /* eslint-disable react/prop-types */ 
 
+import { useTheme } from './Theme';
+
 const HomeProjectBlock = ( { projectTitle, size, technology, para1, bullets } ) => {
 
+    const { theme, setThemeByName } = useTheme();
+
     return (
-        <div className='homeProjectBlock'>
+        <div className={`homeProjectBlock ${theme}`}>
             
             {/* Project Title */}
-            <div className='projectHeader'>{projectTitle}</div>
+            <div className={`projectHeader ${theme}`}>{projectTitle}</div>
 
             {/* Line */}
-            <div className='line'><div></div></div>
+            <div className={`line ${theme}`}><div></div></div>
 
             {/* Loop of Technology Bubbles */}
             <div className='projectTechnology'>
@@ -33,7 +37,7 @@ const HomeProjectBlock = ( { projectTitle, size, technology, para1, bullets } ) 
             <div className='spacer'></div>
 
             {/* Paragraph 2 */}
-            <div className='projectDetail projectBullets'>
+            <div className={`projectDetail projectBullets ${theme}`}>
                 {bullets.map((item, index) => (
                     <div key={index}> <span>&#10140;</span> {item}</div>
                 ))}

@@ -103,10 +103,10 @@
     display: flex;
     flex-direction: column;
     align-items: end;
-    height: 170px;
+    height: 214px;
     width: 100px;
     z-index: 2;
-    margin-bottom: -170px;
+    margin-bottom: -214px;
 }
 .themeMenuItem {
     display: flex;

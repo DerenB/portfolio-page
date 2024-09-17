@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const themeList = ['light', 'dark', 'green', 'blue'];
+const themeList = ['light', 'dark', 'forest', 'synth', 'matrix'];
 
 const useTheme = () => {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || themeList[0]);

@@ -2,8 +2,11 @@
 
 // Components
 import HomeProjectBlock from "./HomeProjectBlock"
+import { useTheme } from './Theme';
 
 const homeProjectSection = () => {
+
+    const { theme, setThemeByName } = useTheme();
 
     // Array of Data Dictionaries of projects
     const projectData = [
@@ -99,7 +102,7 @@ const homeProjectSection = () => {
         <div className='homeProjectSection'>
 
             {/* Section Header */}
-            <div className='homeProjectHeader'>Recent <span className='highlight'>Projects</span></div>
+            <div className={`homeProjectHeader ${theme}`}>Recent <span className={`highlight ${theme}`}>Projects</span></div>
 
             {/* Loop to add the Project Blocks */}
             {projectData.map((block, index) => (

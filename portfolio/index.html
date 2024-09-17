@@ -1,7 +1,7 @@
 <!doctype html>
 
 <!-- <html lang="en" style="background: linear-gradient(to right, #072229, #081013);"> -->
-<html lang="en">
+<html lang="en" style="background-color: #000000;">
   
   <head>
     <meta charset="UTF-8" />
@@ -21,7 +21,13 @@
     <!-- ROOT LOCATION -->
     <div id="root"></div>
 
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.jsx">
+      window.onload = function () {
+        setTimeout(function() {
+          document.getElementById("body").style.display = "";
+        }, 500);
+      }
+    </script>
   
   </body>
 
