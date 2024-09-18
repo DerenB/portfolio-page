@@ -175,8 +175,11 @@
     }
     .menuDropDownContainer {
         margin-right: 0%;
-        margin-top: -10px;
+        margin-top: 0px;
         margin-bottom: 0px;
+    }
+    .menuDropDown {
+        margin-top: 0px;
     }
 }
 
