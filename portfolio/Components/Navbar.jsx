@@ -10,6 +10,8 @@ import MenuIcon from './MenuIcon';
 import DropDownMenu from './DropDownMenu';
 import { useTheme } from './Theme';
 
+import ThemeIcon from '../src/assets/paint.svg?react';
+
 function NavBar( { setNewColorTheme } ) {
 
   /// MOBILE MODE DROPDOWN MENU

@@ -13,6 +13,7 @@ function DropDownMenu( { handleClick, theme }) {
             </Link>
             */}
 
+            <div className={`menuDropDownItem ${theme}`}>Theme</div>
             <a href='https://github.com/DerenB' target='_blank' rel="noopener noreferrer" className={`menuDropDownItem ${theme}`} onClick={handleClick}>
               GitHub
             </a>

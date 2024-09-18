@@ -85,6 +85,29 @@
 
 
 
+.menuDropDownItem.light:hover {
+    background-color: #c83432;
+    color: #000000;
+}
+.menuDropDownItem.dark:hover {
+    background-color: #d41c21;
+    color: #000000;
+}
+.menuDropDownItem.forest:hover {
+    background-color: #68148f;
+    color: #ffffff;
+}
+.menuDropDownItem.synth:hover {
+    background-color: #fff342;
+    color: #000000;
+}
+.menuDropDownItem.matrix:hover {
+    background-color: #002900;
+    color: #00ff00;
+}
+
+
+
 .themeMenuItem.light {
     background-color: #425962;
     color: #ffffff;
