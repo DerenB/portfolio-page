@@ -8,9 +8,10 @@ import '../Styles/NavbarThemes.css'
 
 import MenuIcon from './MenuIcon';
 import DropDownMenu from './DropDownMenu';
+import DropDownThemeMenu from './DropDownThemeMenu';
 import { useTheme } from './Theme';
 
-import ThemeIcon from '../src/assets/paint.svg?react';
+// import ThemeIcon from '../src/assets/paint.svg?react';
 
 function NavBar( { setNewColorTheme } ) {
 
@@ -18,6 +19,7 @@ function NavBar( { setNewColorTheme } ) {
   const [dropMenuOpen, setDropMenuOpen] = useState(false);
   const handleMenuClick = () => {
     setDropMenuOpen(dropMenuOpen => !dropMenuOpen)
+    setMobileThemeMenuToFalse()
   }
   const setDropMenuToFalse = () => {
     setDropMenuOpen(false)
@@ -39,6 +41,23 @@ function NavBar( { setNewColorTheme } ) {
   /// COLOR THEMES
   const { theme, setThemeByName } = useTheme();
 
+
+
+  /// MOBILE THEME MENU
+  const [mobileThemeMenuOpen, setMobileThemeMenuOpen] = useState(false);
+  const mobileThemeOpen = () => {
+    setDropMenuToFalse()
+    setMobileThemeMenuOpen(mobileThemeMenuOpen => !mobileThemeMenuOpen)
+  }
+  const setMobileThemeMenuToFalse = () => {
+    setMobileThemeMenuOpen(false)
+  }
+  const handleMobileThemeChange = (newTheme) => {
+    setMobileThemeMenuToFalse()
+    setThemeMenuToFalse()
+    setThemeByName(newTheme)
+    setNewColorTheme(newTheme)
+  }
 
 
   /// WINDOW WIDTH
@@ -120,9 +139,26 @@ function NavBar( { setNewColorTheme } ) {
       </nav>
 
 
+
       {/* MOBILE DROP DOWN MENU */}
       {dropMenuOpen && windowWidth <= breakpoint ? (
-        <DropDownMenu handleClick={setDropMenuToFalse} theme={theme} />
+        <DropDownMenu 
+          handleClick={setDropMenuToFalse} 
+          handleMobile={mobileThemeOpen}
+          theme={theme} 
+        />
+      ) : (
+        <div></div>
+      )}
+
+
+
+      {/* MOBILE THEME MENU DROP DOWN */}
+      {mobileThemeMenuOpen && windowWidth <= breakpoint ? (
+        <DropDownThemeMenu
+          handleClick={handleMobileThemeChange}
+          theme={theme}
+        />
       ) : (
         <div></div>
       )}

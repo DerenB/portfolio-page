@@ -2,34 +2,37 @@
 
 import { Link } from 'react-router-dom';
 
-function DropDownMenu( { handleClick, theme }) {
-    return (
-        <div className='menuDropDownContainer'>
-          <div className='menuDropDown'>
+function DropDownMenu( { handleClick, handleMobile, theme }) {
 
-            {/*
-            <Link to="/" className='menuDropDownItem' onClick={handleClick}>
-              <div>Home</div>
-            </Link>
-            */}
+  /// MOBILE COLOR THEME DROPDOWN
 
-            <div className={`menuDropDownItem ${theme}`}>Theme</div>
-            <a href='https://github.com/DerenB' target='_blank' rel="noopener noreferrer" className={`menuDropDownItem ${theme}`} onClick={handleClick}>
-              GitHub
-            </a>
-            <a href='https://www.linkedin.com/in/deren-bozer/' target='_blank' rel="noopener noreferrer" className={`menuDropDownItem ${theme}`} onClick={handleClick}>
-              LinkedIn
-            </a>
+  return (
+    <div className='menuDropDownContainer'>
+      <div className='menuDropDown'>
 
-            {/*
-            <Link to="/contact" className='menuDropDownItem' onClick={handleClick}>
-              <div>Contact</div>
-            </Link>
-            */}
+        {/*
+        <Link to="/" className='menuDropDownItem' onClick={handleClick}>
+          <div>Home</div>
+        </Link>
+        */}
 
-          </div>
-        </div>
-    )
+        <div className={`menuDropDownItem ${theme}`} onClick={handleMobile}>Theme</div>
+        <a href='https://github.com/DerenB' target='_blank' rel="noopener noreferrer" className={`menuDropDownItem ${theme}`} onClick={handleClick}>
+          GitHub
+        </a>
+        <a href='https://www.linkedin.com/in/deren-bozer/' target='_blank' rel="noopener noreferrer" className={`menuDropDownItem ${theme}`} onClick={handleClick}>
+          LinkedIn
+        </a>
+
+        {/*
+        <Link to="/contact" className='menuDropDownItem' onClick={handleClick}>
+          <div>Contact</div>
+        </Link>
+        */}
+
+      </div>
+    </div>
+  )
 }
 
 export default DropDownMenu
