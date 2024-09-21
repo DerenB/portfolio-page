@@ -2,7 +2,7 @@
     background: linear-gradient(to right, #FFFFFF, #FFFFFF);
 }
 .navMainBackground.dark {
-    background: linear-gradient(to right, #072229, #081013);
+    background: linear-gradient(to right, #121212, #121212);
 }
 .navMainBackground.forest {
     background: linear-gradient(to right, #D8F3C9, #D8F3C9);
@@ -21,8 +21,8 @@
     border-bottom: 1px solid #425862;
 }
 .navMain.dark {
-    color: #D41C21;
-    border-bottom: 1px solid #636363;
+    color: #BB86FC;
+    border-bottom: 1px solid #6200EE;
 }
 .navMain.forest {
     color: #000000;
@@ -43,7 +43,7 @@
     background-color: #000000;
 }
 .menuColor.dark {
-    background-color: #D41C21;
+    background-color: #BB86FC;
 }
 .menuColor.forest {
     background-color: #000000;
@@ -63,9 +63,9 @@
     border-bottom: 1px solid #88b2cc;
 }
 .menuDropDownItem.dark {
-    background-color: #636363;
+    background-color: #6200EE;
     color: #ffffff;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #BB86FC;
 }
 .menuDropDownItem.forest {
     background-color: #bd8c61;
@@ -90,8 +90,9 @@
     color: #000000;
 }
 .menuDropDownItem.dark:hover {
-    background-color: #d41c21;
+    background-color: #BB86FC;
     color: #000000;
+    border-bottom: 1px solid #2D2D2D;
 }
 .menuDropDownItem.forest:hover {
     background-color: #68148f;
@@ -114,9 +115,9 @@
     border-bottom: 1px solid #88b2cc;
 }
 .themeMenuItem.dark {
-    background-color: #636363;
+    background-color: #6200EE;
     color: #ffffff;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #BB86FC;
 }
 .themeMenuItem.forest {
     background-color: #bd8c61;
@@ -141,8 +142,9 @@
     color: #000000;
 }
 .themeMenuItem.dark:hover {
-    background-color: #d41c21;
+    background-color: #BB86FC;
     color: #000000;
+    border-bottom: 1px solid #2D2D2D;
 }
 .themeMenuItem.forest:hover {
     background-color: #68148f;

@@ -2,7 +2,7 @@
     background: linear-gradient(to right, #FFFFFF, #FFFFFF);
 }
 .content.dark {
-    background: linear-gradient(to right, #072229, #081013);
+    background: linear-gradient(to right, #121212, #121212);
 }
 .content.forest {
     background: linear-gradient(to right, #D8F3C9, #D8F3C9);
@@ -38,7 +38,7 @@
     color: #c83432;
 }
 .homeIntroHeadline.dark span {
-    color: #D41C21;
+    color: #BB86FC;
 }
 .homeIntroHeadline.forest span {
     color: #68148f;
@@ -94,7 +94,7 @@
 }
 .homeProjectBlock.dark {
     color: #ffffff;
-    background-color: #20383e;
+    background-color: #2D2D2D;
 }
 .homeProjectBlock.forest {
     color: #000000;
@@ -115,7 +115,7 @@
     color: #000000;
 }
 .projectBullets.dark {
-    color: #d0d0d0;
+    color: #FFFFFF;
 }
 .projectBullets.forest {
     color: #000000;
@@ -133,7 +133,7 @@
     color: #c83432;
 }
 .projectBullets.dark span {
-    color: #D41C21;
+    color: #BB86FC;
 }
 .projectBullets.forest span {
     color: #68148f;
@@ -151,7 +151,7 @@
     border-bottom: 2px solid #425862;
 }
 .line.dark div {
-    border-bottom: 2px solid #636363;
+    border-bottom: 2px solid #6200EE;
 }
 .line.forest div {
     border-bottom: 2px solid #bd8c61;
@@ -169,7 +169,7 @@
     color: #c83432;
 }
 .highlight.dark {
-    color: #D41C21;
+    color: #BB86FC;
 }
 .highlight.forest {
     color: #68148f;
