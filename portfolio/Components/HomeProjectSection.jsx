@@ -45,24 +45,8 @@ const homeProjectSection = () => {
             ]
         },
         {
-            "title": "Portfolio Website",
-            "size": 1,
-            "technology": [
-                { "class": 'react', "text": "ReactJS", "color": "darkText"},
-                { "class": 'css', "text": "CSS", "color": "lightText"},
-                { "class": 'figma', "text": "Figma", "color": "lightText"}
-            ],
-            "paragraph1": "Created this portfolio website with React and CSS with reusable components for future expansion.",
-            "bullets": [
-                "Tested layouts and colors in Figma",
-                "Took design inspiration from portfolio templates",
-                "Supports mobile formats",
-                "Deployed to Vercel"
-            ]
-        },
-        {
             "title": "Student All-In-One Web App",
-            "size": 4,
+            "size": 5,
             "technology": [
                 { "class": 'fastapi', "text": "FastAPI", "color": "lightText"},
                 { "class": 'react', "text": "ReactJS", "color": "darkText"},
@@ -76,6 +60,22 @@ const homeProjectSection = () => {
                 "Setup the website technology stack",
                 "Helped with the Home page and Navbar",
                 "Hosted the project on Digital Ocean"
+            ]
+        },
+        {
+            "title": "Portfolio Website",
+            "size": 1,
+            "technology": [
+                { "class": 'react', "text": "ReactJS", "color": "darkText"},
+                { "class": 'css', "text": "CSS", "color": "lightText"},
+                { "class": 'figma', "text": "Figma", "color": "lightText"}
+            ],
+            "paragraph1": "Created this portfolio website with React and CSS with reusable components for future expansion.",
+            "bullets": [
+                "Tested layouts and colors in Figma",
+                "Took design inspiration from portfolio templates",
+                "Supports mobile formats",
+                "Deployed to Vercel"
             ]
         },
         {
