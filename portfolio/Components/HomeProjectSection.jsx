@@ -25,7 +25,7 @@ const homeProjectSection = () => {
                 "Changed the form State field to a dropdown menu",
                 "Added form validation",
                 "Tested the app through TestFlight",
-                "Submitted and deployed the app to the Apple Store"
+                "Submitted and deployed updates to the app on the Apple Store"
             ]
         },
         {
