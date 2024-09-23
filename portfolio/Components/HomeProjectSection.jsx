@@ -37,7 +37,7 @@ const homeProjectSection = () => {
                 { "class": 'react', "text": "ReactJS", "color": "darkText"},
                 { "class": 'css', "text": "CSS", "color": "lightText"}
             ],
-            "paragraph1": "Built a web form for company internal use that prompts an AI based on user input. The AI generates a C# file with the necessary classes and methods. Python was used to prompt the AI and call the Anthropic API.",
+            "paragraph1": "Built a web form for company internal use that prompts an AI to generate a C# file based on user input. Python was used to prompt the AI and call the Anthropic API.",
             "bullets": [
                 "Built the backend server for calling the AI prompt class",
                 "Converted the prompt class to read from a json file instead of from the console",
