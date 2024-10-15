@@ -34,7 +34,7 @@ const homeProjectSection = () => {
             "technology": [
                 { "class": 'anthropic', "text": "Anthropic", "color": "darkText"},
                 { "class": 'fastapi', "text": "FastAPI", "color": "lightText"},
-                { "class": 'react', "text": "ReactJS", "color": "darkText"},
+                { "class": 'react', "text": "React", "color": "darkText"},
                 { "class": 'css', "text": "CSS", "color": "lightText"}
             ],
             "paragraph1": "Built a web form for company internal use that prompts an AI to generate a C# file based on user input. Python was used to prompt the AI and call the Anthropic API.",
@@ -49,7 +49,7 @@ const homeProjectSection = () => {
             "size": 5,
             "technology": [
                 { "class": 'fastapi', "text": "FastAPI", "color": "lightText"},
-                { "class": 'react', "text": "ReactJS", "color": "darkText"},
+                { "class": 'react', "text": "React", "color": "darkText"},
                 { "class": 'tailwindcss', "text": "TailwindCSS", "color": "darkText"},
                 { "class": 'mongodb', "text": "MongoDB", "color": "lightText"}
             ],
@@ -66,7 +66,7 @@ const homeProjectSection = () => {
             "title": "Portfolio Website",
             "size": 1,
             "technology": [
-                { "class": 'react', "text": "ReactJS", "color": "darkText"},
+                { "class": 'react', "text": "React", "color": "darkText"},
                 { "class": 'css', "text": "CSS", "color": "lightText"},
                 { "class": 'figma', "text": "Figma", "color": "lightText"}
             ],
