@@ -2,7 +2,7 @@
 
 import { useTheme } from './Theme';
 
-const HomeProjectBlock = ( { projectTitle, size, technology, para1, bullets } ) => {
+const HomeProjectBlock = ( { projectTitle, size, dates, technology, para1, bullets } ) => {
 
     const { theme, setThemeByName } = useTheme();
 
@@ -27,6 +27,11 @@ const HomeProjectBlock = ( { projectTitle, size, technology, para1, bullets } ) 
             {/* Team Size */}
             <div className='projectDetail'>
                 Team Size: {size}
+            </div>
+
+            {/* Date */}
+            <div className='projectDetail'>
+                {dates}
             </div>
 
             {/* Paragraph 1 */}

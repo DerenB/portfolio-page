@@ -13,6 +13,7 @@ const homeProjectSection = () => {
         {
             "title": "DivDat iPhone App",
             "size": 1,
+            "dates": "May 2024 - Present",
             "technology": [
                 { "class": 'swift', "text": "Swift", "color": "lightText"},
                 { "class": 'uikit', "text": "UiKit", "color": "lightText"},
@@ -31,6 +32,7 @@ const homeProjectSection = () => {
         {
             "title": "DivDat AI Web Form",
             "size": 2,
+            "dates": "May 2024 - Sep 2024",
             "technology": [
                 { "class": 'anthropic', "text": "Anthropic", "color": "darkText"},
                 { "class": 'fastapi', "text": "FastAPI", "color": "lightText"},
@@ -47,6 +49,7 @@ const homeProjectSection = () => {
         {
             "title": "Student All-In-One Web App",
             "size": 5,
+            "dates": "Sep 2023 - Dec 2023",
             "technology": [
                 { "class": 'fastapi', "text": "FastAPI", "color": "lightText"},
                 { "class": 'react', "text": "React", "color": "darkText"},
@@ -65,6 +68,7 @@ const homeProjectSection = () => {
         {
             "title": "Portfolio Website",
             "size": 1,
+            "dates": "Aug 2024 - Sep 2024",
             "technology": [
                 { "class": 'react', "text": "React", "color": "darkText"},
                 { "class": 'css', "text": "CSS", "color": "lightText"},
@@ -81,6 +85,7 @@ const homeProjectSection = () => {
         {
             "title": "Bookstore Storefront",
             "size": 2,
+            "dates": "Feb 2023 - Apr 2023",
             "technology": [
                 { "class": 'php', "text": "PHP", "color": "darkText"},
                 { "class": 'bootstrap', "text": "Bootstrap", "color": "lightText"},
@@ -109,6 +114,7 @@ const homeProjectSection = () => {
                 <HomeProjectBlock
                     key = {index}
                     size = {block.size}
+                    dates = {block.dates}
                     projectTitle = {block.title}
                     technology = {block.technology}
                     para1 = {block.paragraph1}
