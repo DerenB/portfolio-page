@@ -216,7 +216,7 @@
     .homeIntroSection {
         flex-direction: column-reverse;
         align-items: center;
-        margin-top: 20%;
+        margin-top: 25%;
     }
     .homeIntroWords {
         width: 90%;
@@ -264,12 +264,12 @@
 
 @media only screen and (max-width: 571px) {
     .homeIntroSection {
-        margin-top: 24%;
+        margin-top: 35%;
     }
 }
 @media only screen and (max-width: 466px) {
     .homeIntroSection {
-        margin-top: 23%;
+        margin-top: 33%;
     }
     .homeIntroHeadline {
         font-size: 1.7em;
@@ -280,12 +280,12 @@
 
 @media only screen and (max-width: 451px) {
     .homeIntroSection {
-        margin-top: 30%;
+        margin-top: 36%;
     }
 }
 @media only screen and (max-width: 429px) {
     .homeIntroSection {
-        margin-top: 28%;
+        margin-top: 37%;
     }
     .homeIntroHeadline {
         font-size: 1.6em;
@@ -299,7 +299,7 @@
 }
 @media only screen and (max-width: 397px) {
     .homeIntroSection {
-        margin-top: 33%;
+        margin-top: 37%;
     }
 }
 
@@ -307,15 +307,15 @@
 
 @media only screen and (max-width: 380px) {
     .homeIntroSection {
-        margin-top: 42%;
+        margin-top: 45%;
     }
     .homeIntroPic {
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 }
 @media only screen and (max-width: 358px) {
     .homeIntroSection {
-        margin-top: 40%;
+        margin-top: 45%;
     }
     .homeIntroHeadline {
         font-size: 1.5em;
@@ -326,7 +326,7 @@
 }
 @media only screen and (max-width: 344px) {
     .homeIntroSection {
-        margin-top: 40%;
+        margin-top: 45%;
     }
     .homeIntroHeadline {
         font-size: 1.4em;
@@ -341,12 +341,12 @@
 
 @media only screen and (max-width: 329px) {
     .homeIntroSection {
-        margin-top: 38%;
+        margin-top: 45%;
     }
 }
 @media only screen and (max-width: 320px) {
     .homeIntroSection {
-        margin-top: 41%;
+        margin-top: 45%;
     }
     .homeIntroParagraph {
         font-size: 0.85em;
@@ -357,15 +357,23 @@
 
 @media only screen and (max-width: 312px) {
     .homeIntroSection {
-        margin-top: 40%;
+        margin-top: 45%;
     }
 }
-@media only screen and (max-width: 289px) {
+@media only screen and (max-width: 297px) {
     .homeIntroSection {
-        margin-top: 60%;
+        margin-top: 55%;
     }
     .homeIntroPic {
         margin-bottom: 45px;
+    }
+}
+@media only screen and (max-width: 281px) {
+    .homeIntroSection {
+        margin-top: 63%;
+    }
+    .homeIntroPic {
+        margin-bottom: 75px;
     }
 }
 @media only screen and (max-width: 254px) {
